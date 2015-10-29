@@ -10,4 +10,16 @@
 	
 	<artifactId>caatja-core</artifactId>
 	<version>0.7.6-SNAPSHOT</version>
+
+	<build>
+		<resources>
+			<resource>
+				<directory>src/main/java</directory>
+				<includes>
+					<include>**/*.xml</include>
+				</includes>
+			</resource>
+		</resources>
+	</build>
+
 </project>
