@@ -79,7 +79,7 @@ public class Scale1Behavior extends BaseBehavior {
      *
      * @param time the time to apply the scale for.
      * @param actor the target actor to Scale.
-     * @return {object} an object of the form <code>{ scaleX: {float} scaleY: {float}Ê}</code>
+     * @return {object} an object of the form <code>{ scaleX: {float} scaleY: {float}}</code>
      */
     public SetForTimeReturnValue setForTime (double time, Actor actor) {
 
