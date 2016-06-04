@@ -81,7 +81,7 @@ public class AlertConfirmDialog extends Stage {
         borderPane.setCenter(dropShadowPane);
 
         Scene scene = new Scene(borderPane);
-        scene.getStylesheets().add(getClass().getResource("alert.css").toExternalForm());
+        scene.getStylesheets().add("alert.css");
         scene.setFill(Color.TRANSPARENT);
         setScene(scene);
     }
