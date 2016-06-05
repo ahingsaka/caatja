@@ -1,20 +1,21 @@
 package com.katspow.caatjafx;
 
+import com.katspow.caatja.core.canvas.CaatjaCanvas;
+import com.katspow.caatja.core.interfaces.CaatjaRootPanel;
+
+import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.layout.Pane;
-
-import com.katspow.caatja.core.canvas.CaatjaCanvas;
-import com.katspow.caatja.core.interfaces.CaatjaRootPanel;
 
 public class CaatjaFxRootPanel implements CaatjaRootPanel {
 	
 	public Pane root;
 	private Scene fxScene;
 	
-	public CaatjaFxRootPanel() {
+	public CaatjaFxRootPanel(int width, int height) {
 		root = new Pane();
-		fxScene = new Scene(root);
+		fxScene = new Scene(root, width, height);
 	}
 	
 	public Scene getFxScene() {
