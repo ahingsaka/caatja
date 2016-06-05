@@ -46,7 +46,7 @@ public class CaatjaFx extends CAAT {
 				new CaatjaFxPreloader(), new CaatjaFxStorage(), null, new CaatjaFx(rootPanel));
 
 		primaryStage.setScene(rootPanel.getFxScene());
-		show(primaryStage);
+		primaryStage.show();
 		
 		fxStage = primaryStage;
 		window.setOwner(primaryStage);
@@ -63,7 +63,7 @@ public class CaatjaFx extends CAAT {
 				new CaatjaFxPreloader(), new CaatjaFxStorage(), null, new CaatjaFx(rootPanel));
 
 		primaryStage.setScene(rootPanel.getFxScene());
-		show(primaryStage);
+		primaryStage.show();
 		
 		fxStage = primaryStage;
 		window.setOwner(primaryStage);
@@ -80,17 +80,11 @@ public class CaatjaFx extends CAAT {
                 new CaatjaFxPreloader(), new CaatjaFxStorage(), scoreLoader, new CaatjaFx(rootPanel));
 
         primaryStage.setScene(rootPanel.getFxScene());
-        show(primaryStage);
+        primaryStage.show();
         
         fxStage = primaryStage;
         window.setOwner(primaryStage);
 	    
-	}
-	
-	private static void show(Stage stage) {
-		stage.show();
-		System.out.println(stage.getHeight());
-		System.out.println(stage.getWidth());
 	}
 	
 	public static Pane getFxPane() {
