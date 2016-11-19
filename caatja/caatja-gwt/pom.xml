@@ -4,11 +4,10 @@
 	<parent>
 		<groupId>com.katspow.caatja</groupId>
 		<artifactId>caatja</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>0.7.6-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>caatja-gwt</artifactId>
-	<version>0.7.6-SNAPSHOT</version>
 
 	<build>
 		<resources>
