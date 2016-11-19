@@ -9,9 +9,13 @@ The goal of CAATJA, is to be used by any Java drawing/rendering technology that 
 Thus CAATJA alone, is useless. You must have an implementation.
 There are 2 implementations : one in GWT (caatja-gwt) and the other one in JAVA FX (caatja-fx).
 
+#### Screenshots/demo #### 
+
+Here are a few screenshots :
+
 You can see CAATJA in action here : [http://caatja-gwt-demos.appspot.com/](http://caatja-gwt-demos.appspot.com/)
 
-#### A quick example ####
+#### Code example ####
 
 ```java
 package com.katspow.example;
@@ -103,7 +107,7 @@ public class Example extends Application {
 ```
 
 Here is the result :
-
+![](https://github.com/ahingsaka/caatja-gwt-demos/blob/master/caatja-gwt-demos/src/main/resources/com/katspow/caatjagwtdemos/server/quick-ex.gif)
 
 
 #### Want to use it ? ####
