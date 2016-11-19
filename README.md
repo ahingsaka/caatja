@@ -14,7 +14,7 @@ You can see CAATJA in action here : [http://caatja-gwt-demos.appspot.com/](http:
 #### A quick example ####
 
 ```java
-package com.katspow.hello;
+package com.katspow.example;
 
 import com.katspow.caatja.behavior.BaseBehavior;
 import com.katspow.caatja.behavior.BehaviorListener;
@@ -68,7 +68,7 @@ public class Example extends Application {
 		scaleBehavior.setPingPong();
 		scaleBehavior.setValues(1d, 2d, 1d, 2d, .5, .5);
 
-		// The animation start at time=2000ms and last for 3000ms
+		// The animation starts at time=2000ms and last for 3000ms
 		scaleBehavior.setFrameTime(2000, 3000);
 
 		// Let's create a rotating animation for the square
@@ -101,6 +101,10 @@ public class Example extends Application {
 
 }
 ```
+
+Here is the result :
+
+
 
 #### Want to use it ? ####
 
