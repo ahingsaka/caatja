@@ -9,13 +9,11 @@ The goal of CAATJA, is to be used by any Java drawing/rendering technology that 
 Thus CAATJA alone, is useless. You must have an implementation.
 There are 2 implementations : one in GWT (caatja-gwt) and the other one in JAVA FX (caatja-fx).
 
-#### Screenshots/demo #### 
-
-Here are a few screenshots :
+#### How does it look ? #### 
 
 You can see CAATJA in action here : [http://caatja-gwt-demos.appspot.com/](http://caatja-gwt-demos.appspot.com/)
 
-#### Code example ####
+#### Code example with caatja-fx ####
 
 ```java
 package com.katspow.example;
@@ -90,7 +88,7 @@ public class Example extends Application {
 			}
 		}));
 
-		// When the rotating animation finishes, we start the caling animation
+		// When the rotating animation finishes, we start the scaling animation
 		rotateBehavior.addListener(BehaviorListener.valueOfExpired(new BehaviorExpiredListener() {
 			public void onExpired(BaseBehavior behavior, double time, Actor actor) {
 				scaleBehavior.setFrameTime(time, 3000);
