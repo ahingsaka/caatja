@@ -50,7 +50,7 @@ public class Example extends Application {
 		director.initialize(320, 240, canvas);
 		Caatja.loop(24);
 
-		// Let's create a scene and make the background black
+		// Let's create a scene
 		Scene scene = director.createScene();
 
 		// Let's create a red square of 60x60
