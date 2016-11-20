@@ -108,6 +108,8 @@ Here is the result :
 
 #### Want to use it ? ####
 
+First, you must have a JDK8 installed.
+
 If you want to use it in a Maven project, add this repository in the <repositories> definition of the POM file :
 
 ```xml
